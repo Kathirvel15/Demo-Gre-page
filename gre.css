@@ -1,0 +1,877 @@
+body {
+    margin: 0px;
+}
+
+/* header */
+header {
+    text-align: center;
+}
+
+/* Section - 1 */
+.gre-section-1 {
+    background: #4F35F2;
+    color: #fff;
+}
+
+.gre-section-1 .gre-section-1-heading h1 {
+    font-size: 40px;
+    font-family: "Poppins";
+    text-align: center;
+    margin: 0px;
+    font-weight: 600;
+    padding-top: 1em;
+}
+
+.gre-section-1-margin {
+    width: 95%;
+    margin: auto;
+    padding-bottom: 2em;
+}
+
+.gre-section-1 .gre-section-1-inner h2 {
+    color: #4F35F2;
+    background: #fff;
+    padding: 5px 15px;
+    font-family: "Poppins";
+    width: max-content;
+    margin: 0px;
+    margin-top: -1.2em;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.gre-section-1 .gre-section-1-3rd-sect h2 {
+    padding: 5px 2em;
+}
+
+.gre-section-1 .gre-section-1-inner {
+    width: 100%;
+    display: flex;
+}
+
+.gre-section-1-1st-sect {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gre-section-1-3rd-sect {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gre-section-1-2nd-sect {
+    width: 34%;
+}
+
+.gre-section-1-1st-sect p {
+    font-family: "Poppins";
+    color: #4F35F2;
+    background: #fff;
+    text-align: center;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.gre-section-1-3rd-sect p {
+    font-family: "Poppins";
+    color: #4F35F2;
+    font-size: 14px;
+    background: #fff;
+    text-align: center;
+    padding: 8px 2.5em;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.gre-section-1-2nd-sect h1 {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: "Poppins";
+    margin: 5px auto 0px;
+    background: #fff;
+    color: #4F35F2;
+    text-align: center;
+    width: max-content;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.gre-section-1-2nd-sect p {
+    font-family: "Poppins";
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.gre-section-1-paragraph {
+    margin-top: 4em;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .gre-section-1-inner img {
+        width: 53%;
+    }
+
+    .gre-section-1-margin .gre-section-1-heading h1 {
+        font-size: 30px;
+    }
+
+    .gre-section-1-inner .gre-section-1-2nd-sect h1 {
+        font-size: 30px;
+    }
+
+    .gre-section-1-inner h2 {
+        font-size: 20px !important;
+    }
+
+    .gre-section-1-1st-sect p,
+    .gre-section-1-3rd-sect p {
+        font-size: 10px;
+    }
+
+    .gre-section-1-paragraph {
+        margin-top: 2em;
+    }
+
+    .gre-section-1-paragraph p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gre-section-1-inner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gre-section-1-1st-sect,
+    .gre-section-1-2nd-sect,
+    .gre-section-1-3rd-sect {
+        width: 100%;
+    }
+
+    .gre-section-1 .gre-section-1-heading h1 {
+        font-size: 22px;
+        padding-top: 1.3em;
+    }
+
+    .gre-secction-1-mobile-hide {
+        display: none;
+    }
+
+    .gre-section-1 .gre-secction-1-desktop-hide {
+        color: #4F35F2;
+        font-size: 25px !important;
+        background: #fff;
+        display: block !important;
+        width: max-content;
+        font-weight: 800 !important;
+        margin: 10px auto 0.5em !important;
+        border-radius: 5px;
+        padding: 5px 10px !important;
+    }
+
+    header img {
+        width: 45%;
+    }
+
+    .gre-section-1 .gre-section-1-1st-sect p {
+        font-size: 12px;
+    }
+
+    .gre-section-1 .gre-section-1-inner h2 {
+        font-size: 22px;
+    }
+
+    .gre-section-1-2nd-sect p {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .gre-section-1-paragraph {
+        margin: 1.5em 0px 2em 0px;
+    }
+
+}
+
+/* Section-2 */
+.gre-section-2 {
+    width: 1100px;
+    margin: auto;
+}
+
+.gre-section-2 h1 {
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 40px;
+    color: #31378D;
+}
+
+.gre-section-2-part-sect-inner {
+    width: 40%;
+}
+
+.gre-section-2-part-section-inner-1 {
+    display: flex;
+    margin-top: 0.8em;
+}
+
+.gre-section-2-part-sect-inner-2nd {
+    width: 20%;
+}
+
+.gre-section-2-part-sect-inner .gre-section-2-heading {
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+    height: max-content;
+    text-align: center;
+    width: 70%;
+}
+
+.gre-section-2-part-sect-inner .gre-section-2-heading p {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.gre-section-2-heading p {
+    margin: 10px;
+}
+
+.gre-section-2-part-sect {
+    display: flex;
+}
+
+.gre-section-2-image-1st {
+    margin-left: 5px;
+    width: 30%;
+}
+
+.gre-section-2-image-2nd {
+    width: 30%;
+    margin-right: 5px;
+    text-align: right;
+}
+
+.gre-2-margin-left {
+    margin-left: 2em;
+    margin-right: -2em;
+}
+
+.gre-2-margin-left-2 {
+    margin-left: -2em;
+    margin-right: 2em;
+}
+
+.gre-section-2-part-sect-inner-2nd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gre-section-2-card-flip-inner {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: greanimate 2s linear infinite;
+}
+
+@keyframes greanimate {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.gre-section-2-1stimage,
+.gre-section-2-2ndimage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.gre-section-2-2ndimage {
+    transform: rotateY(180deg);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .gre-section-2 h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .gre-section-2 {
+        width: 96%;
+    }
+
+    .gre-section-2-part-sect-inner .gre-section-2-heading p {
+        font-size: 10px;
+    }
+
+    .gre-section-2-heading p {
+        margin: 10px 5px;
+    }
+
+    .gre-section-2-1stimage img,
+    .gre-section-2-2ndimage img {
+        width: 80%;
+    }
+
+    .gre-section-2-card-flip-inner {
+        right: -18px;
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gre-section-2 h1 {
+        font-size: 20px;
+    }
+
+    .gre-section-2-mobile-version {
+        display: block !important;
+    }
+
+    .gre-section-2-desktop-version {
+        display: none;
+    }
+}
+
+/* SECTION - 3 */
+.gre-section-3 {
+    width: 1100px;
+    margin: auto;
+    margin-top: 4em;
+}
+
+.gre-section-3 .gre-section-3-inner {
+    display: flex;
+    width: 100%;
+    gap: 3em;
+}
+
+.gre-section-3 h1 {
+    font-family: "Poppins";
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+    color: #31378D;
+}
+
+.gre-section-3-inner-sect-1 {
+    width: 33.33%;
+    /* padding: 20px; */
+}
+
+.gre-section-3-section-1 {
+    text-align: center;
+    background: #31378D;
+    font-family: "Poppins";
+    padding: 15px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.gre-section-3-section-1 h1 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.gre-section-3-section-1 p {
+    font-size: 14px;
+    color: #C6CAFD;
+    margin-top: 2px;
+}
+
+.gre-section-3-section-1 h1,
+.gre-section-3-section-1 p {
+    margin: 0px;
+}
+
+.gre-section-3-image {
+    display: flex;
+    justify-content: center;
+}
+
+.gre-section-3-section-2 {
+    padding: 10px 15px;
+    display: flex;
+    z-index: 99;
+    position: relative;
+    justify-content: center;
+    box-shadow: 0px 75px 145px rgb(0 0 0 / 4%), 0px 31.3332px 60.5775px rgb(0 0 0 / 3%), 0px 16.7522px 32.3876px rgb(0 0 0 / 2%), 0px 9.39116px 18.1562px rgb(0 0 0 / 2%), 0px 4.98758px 9.64265px rgb(0 0 0 / 2%), 0px 2.07544px 4.01252px rgb(0 0 0 / 1%);
+}
+
+.gre-section-3-section-3 {
+    padding: 10px 20px;
+    height: 150px;
+    background: #F8F8FF;
+    box-shadow: 0px 75px 145px rgb(0 0 0 / 4%), 0px 31.3332px 60.5775px rgb(0 0 0 / 3%), 0px 16.7522px 32.3876px rgb(0 0 0 / 2%), 0px 9.39116px 18.1562px rgb(0 0 0 / 2%), 0px 4.98758px 9.64265px rgb(0 0 0 / 2%), 0px 2.07544px 4.01252px rgb(0 0 0 / 1%);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.gre-section-3-section-3 p {
+    font-size: 15px;
+    font-family: "Poppins";
+    text-transform: capitalize;
+    text-align: justify;
+    margin: 0px;
+    color: #7A7A7A;
+    line-height: 1.7;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .gre-section-3 {
+        width: 96%;
+        margin-top: 3em;
+    }
+
+    .gre-section-3 h1 {
+        font-size: 30px;
+    }
+
+    .gre-section-3 .gre-section-3-inner {
+        gap: 1em;
+    }
+
+    .gre-section-3-section-1 p {
+        font-size: 10px;
+    }
+
+    .gre-section-3-section-3 p {
+        font-size: 12px;
+    }
+
+    .gre-section-3-section-1 h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gre-section-3 {
+        width: 90%;
+    }
+
+    .gre-section-3 h1 {
+        font-size: 20px;
+    }
+
+    .gre-section-3 .gre-section-3-inner {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .gre-section-3 .gre-section-3-inner-sect-1 {
+        width: 100%;
+    }
+}
+
+/* SECTION - 4 */
+.gre-section-4 {
+    width: 1100px;
+    margin: auto;
+    margin-top: 4em;
+}
+
+.gre-section-4 .gre-section-4-head h1 {
+    font-family: "Poppins";
+    text-align: center;
+    color: #31378D;
+    font-size: 40px;
+}
+
+.gre-section-4-column-1 .gre-section-split-column1-head h1 {
+    color: #fff;
+    margin: auto;
+    background: linear-gradient(180deg, #6B72E3 0%, #252976 100%);
+    width: max-content;
+    padding: 10px 2em;
+    font-weight: 600;
+    font-family: "Poppins";
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.gre-section-4-innerpart-content .gre-section-inner-para p,
+.gre-section-4-innerpart-content .gre-section-inner-para span {
+    font-family: "Poppins";
+    color: #31378D;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.gre-section-inner-para .gre-section-4-inner-border-down {
+    border: 1px solid #31378D;
+    border-width: 0 4px 4px 0;
+    padding: 4px;
+    height: max-content;
+    transform: rotate(45deg);
+}
+
+.gre-section-inner-para .gre-section-4-inner-border-up {
+    border: 1px solid #31378D;
+    border-width: 0 4px 4px 0;
+    padding: 4px;
+    height: max-content;
+    transform: rotate(225deg);
+    display: none;
+}
+
+.gre-section-4-column-1 {
+    width: 50%;
+}
+
+.gre-section-inner-para {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.gre-section-inner-para p {
+    max-width: 10px;
+}
+
+.gre-section-4-innerpart-content {
+    background: #ECEDFF;
+    border-radius: 10px;
+    margin-top: 1.6em;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+}
+
+.gre-section-4-innerpart-content .gre-section-inner-para {
+    padding: 12px 25px;
+}
+
+.gre-section-4-innerpart-content-1 {
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    display: none;
+}
+
+.gre-section-4-innerpart-content-1 ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.gre-section-4-innerpart-content-1 ul li {
+    font-family: "Poppins";
+    font-size: 18px;
+    line-height: 2;
+    color: #000;
+    font-weight: 600;
+    width: max-content;
+    transition: all .2s ease-in-out;
+}
+
+.gre-section-4-innerpart-content-1 ul li:hover {
+    transform: scaleX(1.04);
+    width: auto;
+    transform-origin: left center;
+}
+
+.gre-section-4-split-column {
+    display: flex;
+    gap: 6%;
+}
+
+@media screen and (max-width: 1024px) {
+    .gre-section-4 {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .gre-section-4 .gre-section-4-head h1 {
+        font-size: 30px;
+    }
+
+    .gre-section-4 {
+        margin-top: 3em;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .gre-section-4 {
+        margin-top: 2em;
+    }
+
+    .gre-section-4 .gre-section-4-column-1 {
+        width: 100%;
+    }
+
+    .gre-section-4 .gre-section-4-split-column {
+        flex-direction: column;
+    }
+
+    .gre-section-4-innerpart-content .gre-section-inner-para p,
+    .gre-section-4-innerpart-content .gre-section-inner-para span {
+        font-size: 18px;
+    }
+
+    .gre-section-4-innerpart-content-1 ul li {
+        font-size: 16px;
+    }
+
+    .gre-section-4-column-1-mobile-version {
+        margin-top: 2em;
+    }
+
+    .gre-section-4 .gre-section-4-head h1 {
+        font-size: 20px;
+    }
+
+    .gre-section-4-column-1 .gre-section-split-column1-head h1 {
+        font-size: 16px;
+        margin: 10px;
+    }
+}
+
+/* Section-5 */
+.gre-section-5 {
+    width: 1100px;
+    margin: auto;
+    margin-top: 4em;
+}
+
+.gre-section-5 .gre-section-5-head h1 {
+    font-family: "Poppins";
+    font-size: 40px;
+    color: #31378D;
+    text-align: center;
+}
+
+.gre-section-5-column-1-split h1 {
+    font-family: "Poppins";
+    font-size: 24px;
+    color: #31378D;
+    font-weight: 600;
+    background: #F7F8FE;
+    border: 1px solid rgba(49, 55, 141, 0.5);
+    box-shadow: 0px 0px 18px rgb(0 0 0 / 10%);
+    border-radius: 50px;
+    padding: 10px 2em;
+    width: max-content;
+}
+
+.gre-section-5-column-split {
+    width: 50%;
+}
+
+.gre-section-5-column-split .gre-section-5-column-2-split {
+    display: flex;
+    align-items: center;
+}
+
+.gre-section-5-image {
+    padding: 12px 17px;
+    border-radius: 10px 0px 0px 10px;
+    background: linear-gradient(180deg, #6B72E3 0%, #252976 100%);
+}
+
+.gre-section-5-image img {
+    width: 83%;
+}
+
+.gre-section-5-image {
+    text-align: center;
+}
+
+.gre-section-5-content p {
+    font-family: "Poppins";
+    font-size: 16px;
+    color: #4A4A4A;
+    padding-left: 15px;
+    margin: 10px 0px;
+    font-weight: 500;
+}
+
+.gre-section-5-column-2-split {
+    border: 1px solid #31378D80;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px rgb(0 0 0 / 10%);
+    margin-top: 1.5em;
+}
+
+.gre-section-5-column-split-inner {
+    display: flex;
+    gap: 4.5em;
+}
+
+.gre-section-5-column-split-inner-top {
+    margin-top: 3em;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .gre-section-5 {
+        width: 96%;
+        margin-top: 3em;
+    }
+
+    .gre-section-5 .gre-section-5-head h1 {
+        font-size: 30px;
+    }
+
+    .gre-section-5-column-split-inner {
+        gap: 1.2em;
+    }
+
+    .gre-section-5-content p {
+        font-size: 12px;
+    }
+
+    .gre-section-5-column-1-split h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gre-section-5 {
+        width: 96%;
+        margin-top: 2em;
+    }
+
+    .gre-section-5-column-split-inner {
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    .gre-section-5-column-split {
+        width: 100%;
+    }
+
+    .gre-section-5-content p {
+        font-size: 12px;
+    }
+
+    .gre-section-5 .gre-section-5-head h1 {
+        font-size: 20px;
+    }
+
+    .gre-section-5-column-1-split h1 {
+        font-size: 18px;
+    }
+
+    .gre-section-5-image {
+        padding: 10px;
+    }
+
+    .gre-section-5-image img {
+        width: 65%;
+    }
+}
+
+/* SEction -6 */
+.gre-section-6 {
+    width: 1100px;
+    margin: auto;
+    margin-top: 4em;
+}
+
+.gre-section-6 .gre-section-6-head h1 {
+    font-size: 40px;
+    font-family: "Poppins";
+    text-align: center;
+    color: #31378D;
+    text-transform: capitalize;
+}
+
+.gre-section-6 .gre-section-6-form {
+    display: flex;
+    gap: 4em;
+    justify-content: space-between;
+}
+
+.gre-section-6-submit-btn button {
+    width: max-content;
+    padding: 12px 2em;
+    display: flex;
+    font-size: 20px;
+    color: #fff;
+    margin: auto;
+    background: #4f35f2;
+    margin-top: 2em;
+    font-weight: 600;
+    box-shadow: 0 0px 10px rgb(0 0 0 / 50%);
+    border: 4px solid #fff;
+    border-radius: 10px;
+}
+
+.gre-section-6 form input {
+    padding: 12px 12px 12px 15px;
+    border: 2px solid #3e3c3cb2;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #646363;
+    width: 100%;
+}
+
+.gre-section-6 form input::placeholder {
+    color: #646363;
+}
+
+.gre-section-5-name {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.gre-section-5-name .nameicon,
+.gre-section-5-name .emailicon,
+.gre-section-5-name .phoneicon {
+    position: absolute;
+    right: 10px;
+}
+
+.gre-section-5-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.gre-section-6-submit-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.gre-section-6-submit-btn button {
+    cursor: pointer;
+}
+
+.gre-section-5-flex .gre-section-5-error {
+    color: red;
+    font-weight: 600;
+    position: absolute;
+    bottom: -1.5em;
+}
+
+.gre-section-6-submit-error {
+    font-size: 20px;
+    font-family: "Poppins";
+    margin: 10px;
+    color: red;
+    font-weight: 600;
+    text-align: center;
+}
